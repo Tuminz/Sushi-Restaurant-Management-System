@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="preconnect" href="https://fonts.bunny.net" />
+    <link
+      href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/branch_home.css" />
+    <link rel="stylesheet" href="/css/output.css" />
+
+    <title>Quản lý phiếu đặt món</title>
+  </head>
+
+  <body class="text-gray-800 font-inter">
+    <!--sidenav -->
+    <%- include('../partials/branch/branch_side_nav') %>
+    <!-- end sidenav -->
+
+    <main
+      class="w-full md:w-[calc(100%-256px)] md:ml-64 bg-gray-200 min-h-screen transition-all main"
+    >
+      <!-- Navbar -->
+      <%- include('../partials/branch/branch_navbar') %>
+      <!-- End Navbar -->
+
+      <!-- Content -->
+      <div class="mx-10 mt-10">
+        <!-- Title -->
+        <div class="text-[30px] font-semibold text-[#374151]">
+          Quản lý Phiếu đặt món
+        </div>
+
+        <h3 class="mb-5 text-lg font-medium text-gray-900 dark:text-white">
+          Tạo phiếu đặt món
+        </h3>
+
+        <ul class="grid w-full gap-6 md:grid-cols-3">
+          <li>
+            <a
+              href="/branch/<%= branchId %>/order-form/offline-order"
+              class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border-2 border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700"
+            >
+              <div class="block text-center">
+                <div class="w-full text-lg font-semibold">Offline</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Danh sách phiếu đặt món -->
+        <div id="orderList" class="mt-8 bg-white p-6 rounded-lg shadow-md">
+          <h2 class="text-lg font-semibold">Danh sách phiếu đặt món</h2>
+          <table class="min-w-full mt-4 border">
+            <thead>
+              <tr>
+                <th class="border px-4 py-2">Mã phiếu</th>
+                <th class="border px-4 py-2">Loại phiếu</th>
+                <th class="border px-4 py-2">Ngày đặt</th>
+                <th class="border px-4 py-2">Giờ đặt</th>
+                <th class="border px-4 py-2">Trạng thái</th>
+                <th class="border px-4 py-2">Hành động</th>
+              </tr>
+            </thead>
+            <tbody id="orderTable">
+              <% if (orders && orders.length > 0) { orders.forEach(order => { %>
+              <tr class="text-center">
+                <td class="border px-4 py-2"><%= order.ORDER_ID %></td>
+                <td class="border px-4 py-2"><%= order.ORDER_TYPE %></td>
+                <td class="border px-4 py-2">
+                  <%= new Date(order.ORDER_DATE).toLocaleDateString("vi-VN") %>
+                </td>
+                <td class="border px-4 py-2">
+                  <%= new Date(order.ORDER_TIME).toLocaleTimeString("vi-VN", {
+                    hour: "2-digit", minute: "2-digit", second: "2-digit", timeZone: "Asia/Jakarta"
+                  }) %>
+                </td>
+                
+                
+                <td class="border px-4 py-2"><%= order.STATUS %></td>
+                <td class="border py-2">
+                  <% if (order.STATUS === 'Chưa thanh toán') { %>
+                  <div class="flex space-x-2 justify-center">
+                    <% if (order.ORDER_TYPE === 'Offline') { %>
+                    <form
+                      action="/branch/<%= branchId %>/order-form/branch-rating"
+                      method="GET"
+                      class="inline"
+                    >
+                      <input
+                        type="hidden"
+                        name="orderId"
+                        value="<%= order.ORDER_ID %>"
+                      />
+                      <input
+                        type="hidden"
+                        name="orderType"
+                        value="<%= order.ORDER_TYPE %>"
+                      />
+                      <button
+                        type="submit"
+                        class="payButton bg-[#32B877] text-white px-3 py-1 rounded hover:bg-[#2da36a]"
+                      >
+                        Thanh toán
+                      </button>
+                    </form>
+                    <form
+                      action="/branch/<%= branchId %>/order-form/update"
+                      method="GET"
+                      class="inline"
+                    >
+                      <input
+                        type="hidden"
+                        name="orderId"
+                        value="<%= order.ORDER_ID %>"
+                      />
+                      <input
+                        type="hidden"
+                        name="orderType"
+                        value="<%= order.ORDER_TYPE %>"
+                      />
+                      <input
+                        type="hidden"
+                        name="orderDate"
+                        value="<%= order.ORDER_DATE %>"
+                      />
+                      <input
+                        type="hidden"
+                        name="orderTime"
+                        value="<%= order.ORDER_TIME %>"
+                      />
+                      <button
+                        type="submit"
+                        class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600"
+                      >
+                        Cập nhật
+                      </button>
+                    </form>
+                    <form
+                      action="/branch/<%= branchId %>/order-form/delete"
+                      method="POST"
+                      class="inline"
+                    >
+                      <input
+                        type="hidden"
+                        name="orderId"
+                        value="<%= order.ORDER_ID %>"
+                      />
+                      <input
+                        type="hidden"
+                        name="orderType"
+                        value="<%= order.ORDER_TYPE %>"
+                      />
+                      <button
+                        type="submit"
+                        class="bg-[#fa2a2a] text-white px-3 py-1 rounded hover:bg-[#c23030]"
+                      >
+                        Xoá
+                      </button>
+                    </form>
+                    <% } else {%>
+                    <form
+                      action="/branch/<%= branchId %>/order-form/pay"
+                      method="POST"
+                      class="inline"
+                      id="orderForm_<%=order.ORDER_ID%>"
+                    >
+                      <input
+                        type="hidden"
+                        name="orderId"
+                        value="<%= order.ORDER_ID %>"
+                      />
+                      <input
+                        type="hidden"
+                        name="orderType"
+                        value="<%= order.ORDER_TYPE %>"
+                        id="orderType"
+                      />
+
+                      <button
+                        type="submit"
+                        class="payButton bg-[#32B877] text-white px-3 py-1 rounded hover:bg-[#2da36a]"
+                      >
+                        Thanh toán
+                      </button>
+                    </form>
+                    <form
+                      action="/branch/<%= branchId %>/order-form/update"
+                      method="GET"
+                      class="inline"
+                    >
+                      <input
+                        type="hidden"
+                        name="orderId"
+                        value="<%= order.ORDER_ID %>"
+                      />
+                      <input
+                        type="hidden"
+                        name="orderType"
+                        value="<%= order.ORDER_TYPE %>"
+                      />
+                      <input
+                        type="hidden"
+                        name="orderDate"
+                        value="<%= order.ORDER_DATE %>"
+                      />
+                      <input
+                        type="hidden"
+                        name="orderTime"
+                        value="<%= order.ORDER_TIME %>"
+                      />
+                      <button
+                        type="submit"
+                        class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600"
+                      >
+                        Cập nhật
+                      </button>
+                    </form>
+                    <form
+                      action="/branch/<%= branchId %>/order-form/delete"
+                      method="POST"
+                      class="inline"
+                    >
+                      <input
+                        type="hidden"
+                        name="orderId"
+                        value="<%= order.ORDER_ID %>"
+                      />
+                      <input
+                        type="hidden"
+                        name="orderType"
+                        value="<%= order.ORDER_TYPE %>"
+                      />
+                      <button
+                        type="submit"
+                        class="bg-[#fa2a2a] text-white px-3 py-1 rounded hover:bg-[#c23030]"
+                      >
+                        Xoá
+                      </button>
+                    </form>
+                    <% } %>
+                  </div>
+                  <% } %>
+                </td>
+              </tr>
+              <% }); %>
+              <% } else { %>
+              <tr>
+                <td colspan="6" class="border px-4 py-2 text-center">
+                  Không có phiếu đặt món nào
+                </td>
+              </tr>
+              <% } %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <%- include('pagination') %>
+    </main>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/js/sidebar.js"></script>
+    <script src="/js/popper.js"></script>
+  </body>
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="preconnect" href="https://fonts.bunny.net" />
+    <link
+      href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/branch_home.css" />
+    <link rel="stylesheet" href="/css/output.css" />
+
+    <title>Quản lý nhân viên</title>
+  </head>
+  <body class="text-gray-800 font-inter">
+    <!--sidenav -->
+    <%- include('../partials/branch/branch_side_nav') %>
+    <!-- end sidenav -->
+
+    <main
+      class="w-full md:w-[calc(100%-256px)] md:ml-64 bg-gray-200 min-h-screen transition-all main"
+    >
+      <!-- Navbar -->
+      <%- include('../partials/branch/branch_navbar') %>
+      <!-- End Navbar -->
+
+      <!-- Content -->
+      <div class="mx-10 mt-10">
+        <!-- Title -->
+        <div class="text-[30px] font-semibold text-[#374151]">
+          Tìm kiếm nhân viên
+        </div>
+
+        <!-- Search Form -->
+        <form
+          action="/branch/<%= branchId %>/employee-search"
+          method="POST"
+          class="bg-white p-6 mt-6 rounded-lg shadow-md items-end"
+          id="searchForm"
+        >
+          <!-- Employee ID -->
+          <div>
+            <label
+              for="employeeId"
+              class="block text-sm font-medium text-gray-700"
+            >
+              Mã nhân viên
+            </label>
+            <input
+              type="text"
+              id="employeeId"
+              name="employeeId"
+              class="mt-1 px-4 py-2 w-full border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              placeholder="Nhập tên, mã nhân viên"
+              required
+            />
+          </div>
+
+          <div class="w-full mt-4">
+            <label for="">Xem điểm phục vụ cuối mỗi:</label>
+
+            <div class="flex space-x-4 items-end mb-[40px] mt-4">
+              <!-- Chọn năm -->
+              <div id="year-container" class="hidden">
+                <div>Chọn năm:</div>
+                <select
+                  name="year"
+                  id="select-year-for-month"
+                  class="border rounded-md py-2 px-4"
+                  required
+                >
+                  <script>
+                    const currentYear = new Date().getFullYear();
+                    for (let i = 1997; i <= currentYear; i++) {
+                      let option = document.createElement("option");
+                      option.value = i; // Đặt giá trị là số năm
+                      option.textContent = "Năm " + i;
+                      if (i === currentYear) {
+                        option.selected = true; // Set current year as selected
+                      }
+                      document
+                        .getElementById("select-year-for-month")
+                        .appendChild(option);
+                    }
+                  </script>
+                </select>
+              </div>
+
+              <!-- Chọn tháng -->
+              <div id="month-container" class="hidden">
+                <div>Chọn tháng:</div>
+                <select
+                  name="month"
+                  id="select-month"
+                  class="border rounded-md py-2 px-4"
+                  required
+                >
+                  <script>
+                    const months = [
+                      "Tháng 1",
+                      "Tháng 2",
+                      "Tháng 3",
+                      "Tháng 4",
+                      "Tháng 5",
+                      "Tháng 6",
+                      "Tháng 7",
+                      "Tháng 8",
+                      "Tháng 9",
+                      "Tháng 10",
+                      "Tháng 11",
+                      "Tháng 12",
+                    ];
+                    months.forEach((month, index) => {
+                      let option = document.createElement("option");
+                      option.value = index + 1; // Giá trị là số tháng (1-12)
+                      option.textContent = month;
+                      if (index === new Date().getMonth()) {
+                        option.selected = true; // Set current month as selected
+                      }
+                      document
+                        .getElementById("select-month")
+                        .appendChild(option);
+                    });
+                  </script>
+                </select>
+              </div>
+
+              <!-- Chọn quý -->
+              <div id="quarter-container" class="hidden">
+                <div>Chọn quý:</div>
+                <select
+                  id="select-quarter"
+                  name="quarter"
+                  class="border rounded-md py-2 px-4"
+                  required
+                >
+                  <option value="1">Quý 1</option>
+                  <option value="2">Quý 2</option>
+                  <option value="3">Quý 3</option>
+                  <option value="4">Quý 4</option>
+                </select>
+              </div>
+
+              <!-- Chọn ngày -->
+              <div id="date-container" class="">
+                <div>Chọn ngày:</div>
+                <input
+                  type="date"
+                  name="date"
+                  class="border rounded-md py-2 px-4"
+                />
+              </div>
+
+              <!-- Select loại thời gian -->
+              <div>
+                <select
+                  name="selectType"
+                  id="selectType"
+                  class="border rounded-md py-2 px-4"
+                >
+                  <option value="date">Cuối ngày</option>
+                  <option value="month">Cuối tháng</option>
+                  <option value="quarter">Cuối quý</option>
+                  <option value="year">Cuối năm</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Search Button -->
+          <div class="">
+            <button
+              type="submit"
+              class="w-full py-2 bg-blue-600 text-white font-semibold rounded-md shadow hover:bg-blue-700 focus:ring-2 focus:ring-blue-500"
+            >
+              Tìm kiếm
+            </button>
+          </div>
+        </form>
+
+        <!-- Results Section -->
+
+        <div class="mt-10 bg-white p-6 rounded-lg shadow-md" id="searchResults">
+          <h2 class="text-xl font-semibold text-gray-700 mb-4">
+            Kết quả tìm kiếm
+          </h2>
+
+          <table
+            class="min-w-full bg-white border border-gray-300 rounded-lg shadow-lg"
+          >
+            <thead>
+              <tr class="bg-gray-200">
+                <th
+                  class="px-4 py-3 text-center text-sm font-semibold text-gray-700 uppercase border-b"
+                >
+                  Mã nhân viên
+                </th>
+                <th
+                  class="px-4 py-3 text-center text-sm font-semibold text-gray-700 uppercase border-b"
+                >
+                  Họ và tên
+                </th>
+                <th
+                  class="px-4 py-3 text-center text-sm font-semibold text-gray-700 uppercase border-b"
+                >
+                  Điểm trung bình
+                </th>
+              </tr>
+            </thead>
+            <tbody id="resultsTable" class="bg-white">
+              <% if (employee) { %>
+              <tr>
+                <td
+                  class="px-4 py-3 text-center border-b text-sm text-gray-600"
+                >
+                  <%= employee.id%>
+                </td>
+                <td
+                  class="px-4 py-3 text-center border-b text-sm text-gray-600"
+                >
+                  <%= employee.name %>
+                </td>
+                <td
+                  class="px-4 py-3 text-center border-b text-sm text-gray-600"
+                >
+                  <%= averageRate %>
+                </td>
+              </tr>
+              <% } else { %>
+              <tr>
+                <td
+                  colspan="3"
+                  class="px-4 py-3 text-center border-b text-sm text-gray-600"
+                >
+                  Không có kết quả phù hợp.
+                </td>
+              </tr>
+              <% } %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- End Content -->
+    </main>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/js/sidebar.js"></script>
+    <script src="/js/popper.js"></script>
+
+    <script>
+      document
+        .getElementById("selectType")
+        .addEventListener("change", function () {
+          const type = this.value;
+
+          // Ẩn tất cả các phần tử
+          document.getElementById("year-container").classList.add("hidden");
+          document.getElementById("month-container").classList.add("hidden");
+          document.getElementById("quarter-container").classList.add("hidden");
+          document.getElementById("date-container").classList.add("hidden");
+
+          // Hiện phần tử tương ứng
+          if (type === "date") {
+            document
+              .getElementById("date-container")
+              .classList.remove("hidden");
+          } else if (type === "month") {
+            document
+              .getElementById("month-container")
+              .classList.remove("hidden");
+            document
+              .getElementById("year-container")
+              .classList.remove("hidden");
+          } else if (type === "quarter") {
+            document
+              .getElementById("quarter-container")
+              .classList.remove("hidden");
+            document
+              .getElementById("year-container")
+              .classList.remove("hidden");
+          } else if (type === "year") {
+            document
+              .getElementById("year-container")
+              .classList.remove("hidden");
+          }
+        });
+    </script>
+  </body>
+</html>
