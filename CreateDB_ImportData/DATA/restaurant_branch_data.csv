@@ -1,0 +1,16 @@
+BRANCH_ID,BRANCH_PHONE,BRANCH_NAME,BRANCH_ADDRESS,OPEN_TIME,CLOSE_TIME,CAR_PARK,MOTORBIKE_PARK,MANAGER_ID,AREA_NAME
+B001,(01) 1842 4992,Nhà hàng Đà Nẵng 1,Ngũ Hành Sơn - Đà Nẵng,06:30:00,19:00:00,0,1,E000001,Đà Nẵng
+B002,+84-45-771115,Nhà hàng Bình Dương 1,Tân Uyên - Bình Dương,06:00:00,20:00:00,0,1,E000002,Bình Dương
+B003,02 9118 3264,Nhà hàng Hà Nội 1,Cầu Giấy - Hà Nội,07:00:00,22:30:00,1,0,E000003,Hà Nội
+B004,+84-39-572786,Nhà hàng Hải Phòng 1,Dương Kinh - Hải Phòng,08:30:00,23:30:00,0,1,E000004,Hải Phòng
+B005,(09) 5545 6752,Nhà hàng Cần Thơ 1,Ô Môn - Cần Thơ,08:00:00,23:00:00,0,1,E000005,Cần Thơ
+B006,(04) 6462 7300,Nhà hàng Hà Nội 2,Hà Đông - Hà Nội,08:00:00,23:30:00,0,1,E000006,Hà Nội
+B007,+84-40-329840,Nhà hàng Nha Trang 1,Ninh Hòa - Nha Trang,08:00:00,23:00:00,0,0,E000007,Nha Trang
+B008,05 3061 8610,Nhà hàng Quảng Ninh 1,Đông Triều - Quảng Ninh,07:00:00,23:30:00,0,1,E000008,Quảng Ninh
+B009,(09) 9509 3453,Nhà hàng Đà Nẵng 2,Sơn Trà - Đà Nẵng,06:00:00,23:00:00,1,0,E000009,Đà Nẵng
+B010,08 7119 6567,Nhà hàng Bình Dương 2,Thuận An - Bình Dương,07:30:00,21:30:00,1,1,E000010,Bình Dương
+B011,(08) 4317 7910,Nhà hàng Huế 1,Kim Long - Huế,06:30:00,21:00:00,1,1,E000011,Huế
+B012,+84 11 6670878,Nhà hàng Thành phố Hồ Chí Minh 1,Quận 1 - Thành phố Hồ Chí Minh,06:30:00,23:30:00,1,1,E000012,Thành phố Hồ Chí Minh
+B013,01 9686114,Nhà hàng Thành phố Hồ Chí Minh 2,Quận Bình Thạnh - Thành phố Hồ Chí Minh,07:00:00,21:30:00,1,0,E000013,Thành phố Hồ Chí Minh
+B014,02 4541 8481,Nhà hàng Thành phố Hồ Chí Minh 3,Quận 3 - Thành phố Hồ Chí Minh,08:00:00,23:00:00,0,1,E000014,Thành phố Hồ Chí Minh
+B015,(02) 9966 8142,Nhà hàng Hà Nội 3,Ba Đình - Hà Nội,06:30:00,21:30:00,1,1,E000015,Hà Nội

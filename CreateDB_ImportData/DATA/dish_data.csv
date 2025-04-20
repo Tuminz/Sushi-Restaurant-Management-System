@@ -1,0 +1,200 @@
+DISH_ID,DISH_NAME,CATEGORY,PRICE
+D001,Trứng hấp,Khai vị,85074.06
+D002,Súp miso,Khai vị,98075.06
+D003,Súp chay,Khai vị,64928.55
+D004,Trứng cá hồi,Khai vị,38577.59
+D005,Salad rong biển,Khai vị,87378.64
+D006,Edamame luộc,Khai vị,87445.24
+D007,Kimbap,Khai vị,92493.92
+D008,Gỏi cá hồi,Khai vị,64985.12
+D009,Gỏi cá ngừ,Khai vị,39620.11
+D010,Salad trái cây,Khai vị,89594.71
+D011,Đậu phụ chiên giòn,Khai vị,84916.86
+D012,Cá viên chiên,Khai vị,66142.3
+D013,Tôm chiên tempura,Khai vị,58675.27
+D014,Khoai tây chiên,Khai vị,82609.56
+D015,Nấm nướng,Khai vị,92165.15
+D016,Nem cuốn hải sản,Khai vị,40120.73
+D017,Gỏi cuốn tôm thịt,Khai vị,74941.15
+D018,Gỏi gà xé phay,Khai vị,83440.01
+D019,Súp kim chi,Khai vị,96287.22
+D020,Súp hải sản,Khai vị,36446.5
+D021,Sùng sùng rang muối,Khai vị,87510.94
+D022,Ốc hương nướng mỡ hành,Khai vị,52595.4
+D023,Bạch tuộc luộc,Khai vị,95206.07
+D024,Mực nướng sa tế,Khai vị,60155.01
+D025,Salad Nga,Khai vị,62284.95
+D026,Salad trái cây trộn sữa chua,Khai vị,61018.76
+D027,Chả giò hải sản,Khai vị,39724.97
+D028,Bánh bao chiên,Khai vị,68076.78
+D029,Bánh xèo hải sản,Khai vị,43520.82
+D030,Sashimi tổng hợp,Sashimi combo,213882.1
+D031,Sashimi cá hồi đặc biệt,Sashimi combo,193209.01
+D032,Sashimi cá ngừ,Sashimi combo,317553.37
+D033,Sashimi cá trích,Sashimi combo,360039.9
+D034,Sashimi cá thu,Sashimi combo,333731.27
+D035,Sashimi mực,Sashimi combo,315888.61
+D036,Sashimi bạch tuộc,Sashimi combo,409498.94
+D037,Sashimi tôm,Sashimi combo,245623.9
+D038,Sashimi sò điệp,Sashimi combo,458405.0
+D039,Sashimi hàu,Sashimi combo,307722.97
+D040,Sashimi cá kiếm,Sashimi combo,243964.25
+D041,Sashimi cá ngựa,Sashimi combo,218254.83
+D042,Sashimi cá hồi áp chảo,Sashimi combo,407644.81
+D043,Sashimi cá ngừ sốt teriyaki,Sashimi combo,417405.96
+D044,Sashimi cá trích sốt ponzu,Sashimi combo,284910.55
+D045,Sashimi cá thu nướng muối,Sashimi combo,411055.67
+D046,Sashimi mực nướng sa tế,Sashimi combo,457333.02
+D047,Sashimi bạch tuộc luộc,Sashimi combo,191211.58
+D048,Sashimi tôm sốt mayonnaise,Sashimi combo,471097.93
+D049,Sashimi sò điệp nướng phô mai,Sashimi combo,230833.42
+D050,Sashimi hàu nướng mỡ hành,Sashimi combo,303488.16
+D051,Sashimi cá kiếm sốt bơ tỏi,Sashimi combo,354522.43
+D052,Sashimi cá ngựa hấp,Sashimi combo,171915.07
+D053,Sashimi cá hồi sốt cam,Sashimi combo,327010.2
+D054,Sashimi cá ngừ sốt tiêu đen,Sashimi combo,471418.83
+D055,Sashimi cá trích sốt wasabi,Sashimi combo,292211.99
+D056,Sashimi cá thu sốt ponzu,Sashimi combo,242790.2
+D057,Sashimi mực nướng muối ớt,Sashimi combo,195705.83
+D058,Cá ngừ (2 miếng),Nigiri,137951.04
+D059,Cá hồi (2 miếng),Nigiri,70448.86
+D060,Lươn cá hồi nướng sốt (2 miếng),Nigiri,105140.15
+D061,Cá trích,Nigiri,136552.89
+D062,Cá thu,Nigiri,86797.32
+D063,Mực,Nigiri,74957.96
+D064,Bạch tuộc,Nigiri,147794.65
+D065,Tôm,Nigiri,124900.54
+D066,Sò điệp,Nigiri,94361.66
+D067,Hàu,Nigiri,126440.83
+D068,Cá kiếm,Nigiri,92796.07
+D069,Cá ngựa,Nigiri,132774.25
+D070,Trứng cá,Nigiri,124160.92
+D071,Trứng cuộn,Nigiri,88370.55
+D072,Cá hồi áp chảo,Nigiri,92599.88
+D073,Cá ngừ sốt teriyaki,Nigiri,112774.79
+D074,Cá trích sốt ponzu,Nigiri,131048.04
+D075,Cá thu nướng muối,Nigiri,86964.16
+D076,Mực xào sa tế,Nigiri,147164.81
+D077,Bạch tuộc hấp,Nigiri,117311.95
+D078,Tôm sốt mayonnaise,Nigiri,135492.65
+D079,Sò điệp nướng phô mai,Nigiri,110982.64
+D080,Hàu nướng mỡ hành,Nigiri,139692.43
+D081,Cá kiếm sốt bơ tỏi,Nigiri,102039.49
+D082,Cá ngựa hấp,Nigiri,113881.34
+D083,Cá hồi sốt cam,Nigiri,116861.07
+D084,Cá ngừ sốt tiêu đen,Nigiri,77623.36
+D085,Cá trích sốt wasabi,Nigiri,145843.57
+D086,Cá thu sốt ponzu,Nigiri,76983.12
+D087,Mực nướng muối ớt,Nigiri,80477.16
+D088,Tempura tôm,Tempura,82927.38
+D089,Tempura rau,Tempura,80359.08
+D090,Tempura mực,Tempura,90007.84
+D091,Tempura bạch tuộc,Tempura,75064.15
+D092,Tempura cá,Tempura,81504.27
+D093,Tempura khoai lang,Tempura,74118.63
+D094,Tempura bí đỏ,Tempura,91538.7
+D095,Tempura cà tím,Tempura,86596.38
+D096,Tempura hành tây,Tempura,73708.05
+D097,Tempura nấm,Tempura,77797.28
+D098,Tempura đậu hũ,Tempura,94147.16
+D099,Tempura trái cây,Tempura,82755.39
+D100,Tempura hải sản thập cẩm,Tempura,99010.49
+D101,Tempura rau củ thập cẩm,Tempura,94772.5
+D102,Tempura kim châm,Tempura,87439.76
+D103,Tempura đậu bắp,Tempura,80117.64
+D104,Tempura súp lơ,Tempura,76369.51
+D105,Tempura cà rốt,Tempura,86588.46
+D106,Tempura ớt chuông,Tempura,77857.96
+D107,Tempura đậu que,Tempura,91427.93
+D108,Tempura măng tây,Tempura,93813.14
+D109,Tempura nấm kim châm,Tempura,92988.09
+D110,Tempura tôm sú,Tempura,83418.87
+D111,Tempura cá hồi,Tempura,86296.41
+D112,Tempura cá ngừ,Tempura,88685.06
+D113,Tempura bạch tuộc sốt mayonnaise,Tempura,97363.54
+D114,Tempura tôm sốt tartar,Tempura,82141.84
+D115,Tempura rau củ sốt mè rang,Tempura,97396.14
+D116,Udon xào,Udon,87811.89
+D117,Udon canh,Udon,88905.91
+D118,Udon hải sản,Udon,75073.28
+D119,Udon thịt bò,Udon,80731.99
+D120,Udon gà,Udon,75677.53
+D121,Udon chay,Udon,98617.8
+D122,Udon xào giòn,Udon,55204.27
+D123,Udon xào cay,Udon,93211.91
+D124,Udon xào kim chi,Udon,61093.99
+D125,Udon xào bò lúc lắc,Udon,92500.59
+D126,Udon xào hải sản thập cẩm,Udon,56334.94
+D127,Udon xào rau củ thập cẩm,Udon,50951.43
+D128,Udon xào nấm,Udon,58920.43
+D129,Udon xào hải sản sốt cay,Udon,99098.79
+D130,Udon xào bò sốt tiêu đen,Udon,84445.87
+D131,Udon xào gà sốt teriyaki,Udon,87206.44
+D132,Udon xào chay sốt nấm,Udon,86420.68
+D133,Udon xào hải sản sốt chua ngọt,Udon,60084.77
+D134,Udon xào bò sốt tiêu xanh,Udon,94282.77
+D135,Udon xào gà sốt me,Udon,74346.76
+D136,Udon xào rau củ sốt cà ri,Udon,89830.39
+D137,Udon xào hải sản sốt bơ tỏi,Udon,94330.17
+D138,Udon xào bò sốt katsu,Udon,80080.35
+D139,Udon xào gà sốt satế,Udon,54754.6
+D140,Udon xào rau củ sốt nấm,Udon,85050.4
+D141,Hotpot hải sản,Hotpot,350615.53
+D142,Hotpot thịt bò,Hotpot,330852.96
+D143,Hotpot thập cẩm,Hotpot,237736.77
+D144,Hotpot nấm,Hotpot,230610.7
+D145,Hotpot lẩu thái,Hotpot,298380.32
+D146,Hotpot lẩu chua cay,Hotpot,353977.3
+D147,Hotpot lẩu xí quách,Hotpot,392685.24
+D148,Hotpot lẩu mắm,Hotpot,313851.6
+D149,Hotpot lẩu riêu cua,Hotpot,286629.57
+D150,Hotpot lẩu nấm,Hotpot,361375.29
+D151,Hotpot lẩu kim chi,Hotpot,346654.12
+D152,Hotpot lẩu măng chua,Hotpot,270336.26
+D153,Hotpot lẩu xí quách hải sản,Hotpot,214211.4
+D154,Hotpot lẩu chua cay hải sản,Hotpot,319769.56
+D155,Hotpot lẩu mắm hải sản,Hotpot,201125.58
+D156,Hotpot lẩu riêu cua hải sản,Hotpot,201092.65
+D157,Hotpot lẩu nấm hải sản,Hotpot,394161.01
+D158,Hotpot lẩu kim chi hải sản,Hotpot,372960.12
+D159,Hotpot lẩu măng chua hải sản,Hotpot,358369.66
+D160,Lunch set 1,Lunch set,351088.17
+D161,Lunch set 2,Lunch set,373378.84
+D162,Lunch set 3,Lunch set,317773.62
+D163,Lunch set 4,Lunch set,393472.37
+D164,Lunch set 5,Lunch set,456283.43
+D165,Lunch set 6,Lunch set,371715.66
+D166,Lunch set 7,Lunch set,354179.63
+D167,Lunch set 8,Lunch set,331754.01
+D168,Lunch set 9,Lunch set,357874.41
+D169,Lunch set 10,Lunch set,478926.99
+D170,Nước cam,Các món nước,32429.29
+D171,Nước trà xanh,Các món nước,35352.25
+D172,Sinh tố dừa,Các món nước,31190.72
+D173,Nước ép bưởi,Các món nước,27175.06
+D174,Nước ép táo,Các món nước,26714.11
+D175,Nước ép dưa hấu,Các món nước,33509.54
+D176,Nước ép cà rốt,Các món nước,24080.07
+D177,Nước ép trái cây tổng hợp,Các món nước,27580.6
+D178,Nước ép rau má,Các món nước,28196.5
+D179,Nước dừa tươi,Các món nước,38193.56
+D180,Sinh tố bơ,Các món nước,38728.7
+D181,Sinh tố xoài,Các món nước,37452.73
+D182,Sinh tố chuối,Các món nước,35850.4
+D183,Sinh tố dâu,Các món nước,35334.53
+D184,Sinh tố việt quất,Các món nước,22977.98
+D185,Sinh tố kiwi,Các món nước,39330.71
+D186,Sinh tố táo xanh,Các món nước,33049.21
+D187,Sinh tố dưa lưới,Các món nước,21053.58
+D188,Sinh tố cà phê,Các món nước,32211.68
+D189,Sinh tố trà xanh,Các món nước,21386.24
+D190,Nước ép ổi,Các món nước,29368.05
+D191,Nước ép lê,Các món nước,30408.72
+D192,Nước ép cherry,Các món nước,29090.58
+D193,Trà đào,Các món nước,25703.38
+D194,Trà vải,Các món nước,32393.81
+D195,Trà tắc,Các món nước,33401.31
+D196,Trà chanh,Các món nước,25510.84
+D197,Soda chanh,Các món nước,21247.13
+D198,Soda cam,Các món nước,25700.97
+D199,Soda dâu,Các món nước,25980.18

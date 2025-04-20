@@ -1,0 +1,751 @@
+TABLE_NUM,BRANCH_ID,TABLE_STATUS,SEAT_AVAILABLE
+1,B001,Đang phục vụ,5
+2,B001,Đang phục vụ,5
+3,B001,Đang phục vụ,5
+4,B001,Đang phục vụ,5
+5,B001,Được đặt trước,5
+6,B001,Đang phục vụ,5
+7,B001,Đang phục vụ,5
+8,B001,Đang phục vụ,5
+9,B001,Đang phục vụ,5
+10,B001,Còn trống,5
+11,B001,Được đặt trước,5
+12,B001,Còn trống,5
+13,B001,Được đặt trước,5
+14,B001,Còn trống,5
+15,B001,Còn trống,5
+16,B001,Còn trống,5
+17,B001,Đang phục vụ,5
+18,B001,Còn trống,5
+19,B001,Còn trống,5
+20,B001,Được đặt trước,5
+21,B001,Còn trống,5
+22,B001,Đang phục vụ,5
+23,B001,Đang phục vụ,5
+24,B001,Đang phục vụ,5
+25,B001,Còn trống,5
+26,B001,Đang phục vụ,10
+27,B001,Đang phục vụ,10
+28,B001,Đang phục vụ,10
+29,B001,Được đặt trước,10
+30,B001,Đang phục vụ,10
+31,B001,Đang phục vụ,10
+32,B001,Được đặt trước,10
+33,B001,Đang phục vụ,10
+34,B001,Được đặt trước,10
+35,B001,Được đặt trước,10
+36,B001,Còn trống,10
+37,B001,Còn trống,10
+38,B001,Còn trống,10
+39,B001,Còn trống,10
+40,B001,Đang phục vụ,10
+41,B001,Còn trống,10
+42,B001,Được đặt trước,10
+43,B001,Đang phục vụ,10
+44,B001,Đang phục vụ,10
+45,B001,Đang phục vụ,10
+46,B001,Đang phục vụ,10
+47,B001,Còn trống,10
+48,B001,Được đặt trước,10
+49,B001,Đang phục vụ,10
+50,B001,Được đặt trước,10
+1,B002,Còn trống,5
+2,B002,Đang phục vụ,5
+3,B002,Còn trống,5
+4,B002,Được đặt trước,5
+5,B002,Còn trống,5
+6,B002,Đang phục vụ,5
+7,B002,Đang phục vụ,5
+8,B002,Còn trống,5
+9,B002,Được đặt trước,5
+10,B002,Đang phục vụ,5
+11,B002,Được đặt trước,5
+12,B002,Đang phục vụ,5
+13,B002,Được đặt trước,5
+14,B002,Đang phục vụ,5
+15,B002,Đang phục vụ,5
+16,B002,Còn trống,5
+17,B002,Đang phục vụ,5
+18,B002,Được đặt trước,5
+19,B002,Còn trống,5
+20,B002,Còn trống,5
+21,B002,Còn trống,5
+22,B002,Đang phục vụ,5
+23,B002,Còn trống,5
+24,B002,Được đặt trước,5
+25,B002,Đang phục vụ,5
+26,B002,Còn trống,10
+27,B002,Được đặt trước,10
+28,B002,Được đặt trước,10
+29,B002,Còn trống,10
+30,B002,Được đặt trước,10
+31,B002,Được đặt trước,10
+32,B002,Còn trống,10
+33,B002,Được đặt trước,10
+34,B002,Đang phục vụ,10
+35,B002,Còn trống,10
+36,B002,Còn trống,10
+37,B002,Được đặt trước,10
+38,B002,Còn trống,10
+39,B002,Được đặt trước,10
+40,B002,Đang phục vụ,10
+41,B002,Còn trống,10
+42,B002,Còn trống,10
+43,B002,Đang phục vụ,10
+44,B002,Còn trống,10
+45,B002,Được đặt trước,10
+46,B002,Còn trống,10
+47,B002,Đang phục vụ,10
+48,B002,Được đặt trước,10
+49,B002,Còn trống,10
+50,B002,Còn trống,10
+1,B003,Đang phục vụ,5
+2,B003,Được đặt trước,5
+3,B003,Đang phục vụ,5
+4,B003,Còn trống,5
+5,B003,Được đặt trước,5
+6,B003,Được đặt trước,5
+7,B003,Được đặt trước,5
+8,B003,Còn trống,5
+9,B003,Còn trống,5
+10,B003,Được đặt trước,5
+11,B003,Đang phục vụ,5
+12,B003,Được đặt trước,5
+13,B003,Được đặt trước,5
+14,B003,Còn trống,5
+15,B003,Đang phục vụ,5
+16,B003,Đang phục vụ,5
+17,B003,Đang phục vụ,5
+18,B003,Còn trống,5
+19,B003,Đang phục vụ,5
+20,B003,Được đặt trước,5
+21,B003,Còn trống,5
+22,B003,Đang phục vụ,5
+23,B003,Còn trống,5
+24,B003,Còn trống,5
+25,B003,Còn trống,5
+26,B003,Đang phục vụ,10
+27,B003,Còn trống,10
+28,B003,Đang phục vụ,10
+29,B003,Đang phục vụ,10
+30,B003,Còn trống,10
+31,B003,Đang phục vụ,10
+32,B003,Đang phục vụ,10
+33,B003,Đang phục vụ,10
+34,B003,Được đặt trước,10
+35,B003,Đang phục vụ,10
+36,B003,Đang phục vụ,10
+37,B003,Được đặt trước,10
+38,B003,Đang phục vụ,10
+39,B003,Còn trống,10
+40,B003,Đang phục vụ,10
+41,B003,Được đặt trước,10
+42,B003,Còn trống,10
+43,B003,Được đặt trước,10
+44,B003,Đang phục vụ,10
+45,B003,Còn trống,10
+46,B003,Được đặt trước,10
+47,B003,Đang phục vụ,10
+48,B003,Được đặt trước,10
+49,B003,Còn trống,10
+50,B003,Được đặt trước,10
+1,B004,Đang phục vụ,5
+2,B004,Đang phục vụ,5
+3,B004,Được đặt trước,5
+4,B004,Được đặt trước,5
+5,B004,Đang phục vụ,5
+6,B004,Còn trống,5
+7,B004,Đang phục vụ,5
+8,B004,Còn trống,5
+9,B004,Đang phục vụ,5
+10,B004,Đang phục vụ,5
+11,B004,Được đặt trước,5
+12,B004,Đang phục vụ,5
+13,B004,Đang phục vụ,5
+14,B004,Còn trống,5
+15,B004,Đang phục vụ,5
+16,B004,Được đặt trước,5
+17,B004,Còn trống,5
+18,B004,Đang phục vụ,5
+19,B004,Đang phục vụ,5
+20,B004,Còn trống,5
+21,B004,Được đặt trước,5
+22,B004,Đang phục vụ,5
+23,B004,Đang phục vụ,5
+24,B004,Được đặt trước,5
+25,B004,Được đặt trước,5
+26,B004,Đang phục vụ,10
+27,B004,Còn trống,10
+28,B004,Còn trống,10
+29,B004,Đang phục vụ,10
+30,B004,Đang phục vụ,10
+31,B004,Còn trống,10
+32,B004,Đang phục vụ,10
+33,B004,Còn trống,10
+34,B004,Đang phục vụ,10
+35,B004,Còn trống,10
+36,B004,Đang phục vụ,10
+37,B004,Đang phục vụ,10
+38,B004,Đang phục vụ,10
+39,B004,Được đặt trước,10
+40,B004,Còn trống,10
+41,B004,Được đặt trước,10
+42,B004,Đang phục vụ,10
+43,B004,Đang phục vụ,10
+44,B004,Đang phục vụ,10
+45,B004,Còn trống,10
+46,B004,Còn trống,10
+47,B004,Được đặt trước,10
+48,B004,Còn trống,10
+49,B004,Còn trống,10
+50,B004,Còn trống,10
+1,B005,Được đặt trước,5
+2,B005,Còn trống,5
+3,B005,Còn trống,5
+4,B005,Còn trống,5
+5,B005,Đang phục vụ,5
+6,B005,Còn trống,5
+7,B005,Đang phục vụ,5
+8,B005,Được đặt trước,5
+9,B005,Còn trống,5
+10,B005,Đang phục vụ,5
+11,B005,Đang phục vụ,5
+12,B005,Còn trống,5
+13,B005,Đang phục vụ,5
+14,B005,Đang phục vụ,5
+15,B005,Còn trống,5
+16,B005,Còn trống,5
+17,B005,Đang phục vụ,5
+18,B005,Đang phục vụ,5
+19,B005,Còn trống,5
+20,B005,Được đặt trước,5
+21,B005,Còn trống,5
+22,B005,Còn trống,5
+23,B005,Còn trống,5
+24,B005,Đang phục vụ,5
+25,B005,Đang phục vụ,5
+26,B005,Còn trống,10
+27,B005,Đang phục vụ,10
+28,B005,Được đặt trước,10
+29,B005,Đang phục vụ,10
+30,B005,Còn trống,10
+31,B005,Được đặt trước,10
+32,B005,Còn trống,10
+33,B005,Còn trống,10
+34,B005,Còn trống,10
+35,B005,Đang phục vụ,10
+36,B005,Còn trống,10
+37,B005,Còn trống,10
+38,B005,Đang phục vụ,10
+39,B005,Được đặt trước,10
+40,B005,Đang phục vụ,10
+41,B005,Còn trống,10
+42,B005,Đang phục vụ,10
+43,B005,Được đặt trước,10
+44,B005,Đang phục vụ,10
+45,B005,Còn trống,10
+46,B005,Đang phục vụ,10
+47,B005,Còn trống,10
+48,B005,Còn trống,10
+49,B005,Còn trống,10
+50,B005,Đang phục vụ,10
+1,B006,Đang phục vụ,5
+2,B006,Còn trống,5
+3,B006,Đang phục vụ,5
+4,B006,Còn trống,5
+5,B006,Được đặt trước,5
+6,B006,Được đặt trước,5
+7,B006,Được đặt trước,5
+8,B006,Được đặt trước,5
+9,B006,Còn trống,5
+10,B006,Được đặt trước,5
+11,B006,Được đặt trước,5
+12,B006,Được đặt trước,5
+13,B006,Được đặt trước,5
+14,B006,Đang phục vụ,5
+15,B006,Đang phục vụ,5
+16,B006,Được đặt trước,5
+17,B006,Đang phục vụ,5
+18,B006,Đang phục vụ,5
+19,B006,Còn trống,5
+20,B006,Còn trống,5
+21,B006,Đang phục vụ,5
+22,B006,Đang phục vụ,5
+23,B006,Đang phục vụ,5
+24,B006,Còn trống,5
+25,B006,Còn trống,5
+26,B006,Đang phục vụ,10
+27,B006,Còn trống,10
+28,B006,Còn trống,10
+29,B006,Được đặt trước,10
+30,B006,Đang phục vụ,10
+31,B006,Còn trống,10
+32,B006,Còn trống,10
+33,B006,Đang phục vụ,10
+34,B006,Đang phục vụ,10
+35,B006,Còn trống,10
+36,B006,Còn trống,10
+37,B006,Được đặt trước,10
+38,B006,Đang phục vụ,10
+39,B006,Đang phục vụ,10
+40,B006,Đang phục vụ,10
+41,B006,Đang phục vụ,10
+42,B006,Đang phục vụ,10
+43,B006,Đang phục vụ,10
+44,B006,Còn trống,10
+45,B006,Được đặt trước,10
+46,B006,Đang phục vụ,10
+47,B006,Đang phục vụ,10
+48,B006,Đang phục vụ,10
+49,B006,Được đặt trước,10
+50,B006,Đang phục vụ,10
+1,B007,Đang phục vụ,5
+2,B007,Đang phục vụ,5
+3,B007,Đang phục vụ,5
+4,B007,Còn trống,5
+5,B007,Còn trống,5
+6,B007,Được đặt trước,5
+7,B007,Còn trống,5
+8,B007,Còn trống,5
+9,B007,Còn trống,5
+10,B007,Được đặt trước,5
+11,B007,Đang phục vụ,5
+12,B007,Đang phục vụ,5
+13,B007,Đang phục vụ,5
+14,B007,Được đặt trước,5
+15,B007,Còn trống,5
+16,B007,Đang phục vụ,5
+17,B007,Còn trống,5
+18,B007,Được đặt trước,5
+19,B007,Đang phục vụ,5
+20,B007,Đang phục vụ,5
+21,B007,Đang phục vụ,5
+22,B007,Được đặt trước,5
+23,B007,Còn trống,5
+24,B007,Được đặt trước,5
+25,B007,Còn trống,5
+26,B007,Còn trống,10
+27,B007,Đang phục vụ,10
+28,B007,Đang phục vụ,10
+29,B007,Còn trống,10
+30,B007,Đang phục vụ,10
+31,B007,Đang phục vụ,10
+32,B007,Còn trống,10
+33,B007,Đang phục vụ,10
+34,B007,Được đặt trước,10
+35,B007,Được đặt trước,10
+36,B007,Đang phục vụ,10
+37,B007,Còn trống,10
+38,B007,Đang phục vụ,10
+39,B007,Đang phục vụ,10
+40,B007,Đang phục vụ,10
+41,B007,Đang phục vụ,10
+42,B007,Đang phục vụ,10
+43,B007,Được đặt trước,10
+44,B007,Còn trống,10
+45,B007,Đang phục vụ,10
+46,B007,Đang phục vụ,10
+47,B007,Đang phục vụ,10
+48,B007,Đang phục vụ,10
+49,B007,Đang phục vụ,10
+50,B007,Đang phục vụ,10
+1,B008,Được đặt trước,5
+2,B008,Đang phục vụ,5
+3,B008,Đang phục vụ,5
+4,B008,Được đặt trước,5
+5,B008,Được đặt trước,5
+6,B008,Đang phục vụ,5
+7,B008,Được đặt trước,5
+8,B008,Đang phục vụ,5
+9,B008,Đang phục vụ,5
+10,B008,Đang phục vụ,5
+11,B008,Đang phục vụ,5
+12,B008,Còn trống,5
+13,B008,Được đặt trước,5
+14,B008,Đang phục vụ,5
+15,B008,Đang phục vụ,5
+16,B008,Còn trống,5
+17,B008,Được đặt trước,5
+18,B008,Được đặt trước,5
+19,B008,Đang phục vụ,5
+20,B008,Được đặt trước,5
+21,B008,Đang phục vụ,5
+22,B008,Còn trống,5
+23,B008,Được đặt trước,5
+24,B008,Còn trống,5
+25,B008,Đang phục vụ,5
+26,B008,Đang phục vụ,10
+27,B008,Đang phục vụ,10
+28,B008,Được đặt trước,10
+29,B008,Còn trống,10
+30,B008,Đang phục vụ,10
+31,B008,Đang phục vụ,10
+32,B008,Còn trống,10
+33,B008,Đang phục vụ,10
+34,B008,Đang phục vụ,10
+35,B008,Được đặt trước,10
+36,B008,Đang phục vụ,10
+37,B008,Đang phục vụ,10
+38,B008,Đang phục vụ,10
+39,B008,Được đặt trước,10
+40,B008,Còn trống,10
+41,B008,Được đặt trước,10
+42,B008,Còn trống,10
+43,B008,Đang phục vụ,10
+44,B008,Đang phục vụ,10
+45,B008,Được đặt trước,10
+46,B008,Còn trống,10
+47,B008,Đang phục vụ,10
+48,B008,Được đặt trước,10
+49,B008,Đang phục vụ,10
+50,B008,Còn trống,10
+1,B009,Đang phục vụ,5
+2,B009,Đang phục vụ,5
+3,B009,Còn trống,5
+4,B009,Đang phục vụ,5
+5,B009,Được đặt trước,5
+6,B009,Còn trống,5
+7,B009,Đang phục vụ,5
+8,B009,Đang phục vụ,5
+9,B009,Còn trống,5
+10,B009,Còn trống,5
+11,B009,Còn trống,5
+12,B009,Được đặt trước,5
+13,B009,Còn trống,5
+14,B009,Được đặt trước,5
+15,B009,Còn trống,5
+16,B009,Còn trống,5
+17,B009,Được đặt trước,5
+18,B009,Đang phục vụ,5
+19,B009,Còn trống,5
+20,B009,Còn trống,5
+21,B009,Còn trống,5
+22,B009,Đang phục vụ,5
+23,B009,Đang phục vụ,5
+24,B009,Được đặt trước,5
+25,B009,Được đặt trước,5
+26,B009,Còn trống,10
+27,B009,Đang phục vụ,10
+28,B009,Đang phục vụ,10
+29,B009,Đang phục vụ,10
+30,B009,Còn trống,10
+31,B009,Đang phục vụ,10
+32,B009,Đang phục vụ,10
+33,B009,Đang phục vụ,10
+34,B009,Đang phục vụ,10
+35,B009,Còn trống,10
+36,B009,Đang phục vụ,10
+37,B009,Được đặt trước,10
+38,B009,Đang phục vụ,10
+39,B009,Đang phục vụ,10
+40,B009,Đang phục vụ,10
+41,B009,Đang phục vụ,10
+42,B009,Đang phục vụ,10
+43,B009,Đang phục vụ,10
+44,B009,Đang phục vụ,10
+45,B009,Còn trống,10
+46,B009,Còn trống,10
+47,B009,Còn trống,10
+48,B009,Được đặt trước,10
+49,B009,Còn trống,10
+50,B009,Đang phục vụ,10
+1,B010,Còn trống,5
+2,B010,Còn trống,5
+3,B010,Còn trống,5
+4,B010,Còn trống,5
+5,B010,Còn trống,5
+6,B010,Đang phục vụ,5
+7,B010,Đang phục vụ,5
+8,B010,Được đặt trước,5
+9,B010,Được đặt trước,5
+10,B010,Còn trống,5
+11,B010,Đang phục vụ,5
+12,B010,Đang phục vụ,5
+13,B010,Đang phục vụ,5
+14,B010,Đang phục vụ,5
+15,B010,Đang phục vụ,5
+16,B010,Đang phục vụ,5
+17,B010,Đang phục vụ,5
+18,B010,Được đặt trước,5
+19,B010,Được đặt trước,5
+20,B010,Đang phục vụ,5
+21,B010,Được đặt trước,5
+22,B010,Được đặt trước,5
+23,B010,Còn trống,5
+24,B010,Còn trống,5
+25,B010,Còn trống,5
+26,B010,Đang phục vụ,10
+27,B010,Đang phục vụ,10
+28,B010,Còn trống,10
+29,B010,Đang phục vụ,10
+30,B010,Đang phục vụ,10
+31,B010,Còn trống,10
+32,B010,Đang phục vụ,10
+33,B010,Đang phục vụ,10
+34,B010,Đang phục vụ,10
+35,B010,Đang phục vụ,10
+36,B010,Đang phục vụ,10
+37,B010,Đang phục vụ,10
+38,B010,Còn trống,10
+39,B010,Đang phục vụ,10
+40,B010,Còn trống,10
+41,B010,Được đặt trước,10
+42,B010,Đang phục vụ,10
+43,B010,Đang phục vụ,10
+44,B010,Đang phục vụ,10
+45,B010,Được đặt trước,10
+46,B010,Đang phục vụ,10
+47,B010,Đang phục vụ,10
+48,B010,Còn trống,10
+49,B010,Đang phục vụ,10
+50,B010,Còn trống,10
+1,B011,Còn trống,5
+2,B011,Đang phục vụ,5
+3,B011,Đang phục vụ,5
+4,B011,Còn trống,5
+5,B011,Đang phục vụ,5
+6,B011,Được đặt trước,5
+7,B011,Đang phục vụ,5
+8,B011,Đang phục vụ,5
+9,B011,Đang phục vụ,5
+10,B011,Đang phục vụ,5
+11,B011,Đang phục vụ,5
+12,B011,Được đặt trước,5
+13,B011,Đang phục vụ,5
+14,B011,Còn trống,5
+15,B011,Đang phục vụ,5
+16,B011,Đang phục vụ,5
+17,B011,Còn trống,5
+18,B011,Còn trống,5
+19,B011,Được đặt trước,5
+20,B011,Đang phục vụ,5
+21,B011,Được đặt trước,5
+22,B011,Được đặt trước,5
+23,B011,Được đặt trước,5
+24,B011,Đang phục vụ,5
+25,B011,Còn trống,5
+26,B011,Được đặt trước,10
+27,B011,Còn trống,10
+28,B011,Còn trống,10
+29,B011,Đang phục vụ,10
+30,B011,Còn trống,10
+31,B011,Đang phục vụ,10
+32,B011,Đang phục vụ,10
+33,B011,Còn trống,10
+34,B011,Đang phục vụ,10
+35,B011,Được đặt trước,10
+36,B011,Đang phục vụ,10
+37,B011,Đang phục vụ,10
+38,B011,Đang phục vụ,10
+39,B011,Được đặt trước,10
+40,B011,Còn trống,10
+41,B011,Còn trống,10
+42,B011,Được đặt trước,10
+43,B011,Được đặt trước,10
+44,B011,Đang phục vụ,10
+45,B011,Được đặt trước,10
+46,B011,Được đặt trước,10
+47,B011,Đang phục vụ,10
+48,B011,Đang phục vụ,10
+49,B011,Còn trống,10
+50,B011,Đang phục vụ,10
+1,B012,Đang phục vụ,5
+2,B012,Được đặt trước,5
+3,B012,Đang phục vụ,5
+4,B012,Đang phục vụ,5
+5,B012,Đang phục vụ,5
+6,B012,Đang phục vụ,5
+7,B012,Đang phục vụ,5
+8,B012,Được đặt trước,5
+9,B012,Còn trống,5
+10,B012,Đang phục vụ,5
+11,B012,Đang phục vụ,5
+12,B012,Được đặt trước,5
+13,B012,Còn trống,5
+14,B012,Đang phục vụ,5
+15,B012,Được đặt trước,5
+16,B012,Được đặt trước,5
+17,B012,Được đặt trước,5
+18,B012,Được đặt trước,5
+19,B012,Còn trống,5
+20,B012,Còn trống,5
+21,B012,Được đặt trước,5
+22,B012,Còn trống,5
+23,B012,Được đặt trước,5
+24,B012,Được đặt trước,5
+25,B012,Còn trống,5
+26,B012,Đang phục vụ,10
+27,B012,Còn trống,10
+28,B012,Còn trống,10
+29,B012,Đang phục vụ,10
+30,B012,Được đặt trước,10
+31,B012,Đang phục vụ,10
+32,B012,Đang phục vụ,10
+33,B012,Đang phục vụ,10
+34,B012,Đang phục vụ,10
+35,B012,Đang phục vụ,10
+36,B012,Được đặt trước,10
+37,B012,Đang phục vụ,10
+38,B012,Được đặt trước,10
+39,B012,Đang phục vụ,10
+40,B012,Đang phục vụ,10
+41,B012,Đang phục vụ,10
+42,B012,Đang phục vụ,10
+43,B012,Đang phục vụ,10
+44,B012,Đang phục vụ,10
+45,B012,Còn trống,10
+46,B012,Được đặt trước,10
+47,B012,Được đặt trước,10
+48,B012,Đang phục vụ,10
+49,B012,Đang phục vụ,10
+50,B012,Còn trống,10
+1,B013,Đang phục vụ,5
+2,B013,Đang phục vụ,5
+3,B013,Đang phục vụ,5
+4,B013,Đang phục vụ,5
+5,B013,Được đặt trước,5
+6,B013,Còn trống,5
+7,B013,Đang phục vụ,5
+8,B013,Còn trống,5
+9,B013,Còn trống,5
+10,B013,Được đặt trước,5
+11,B013,Còn trống,5
+12,B013,Đang phục vụ,5
+13,B013,Được đặt trước,5
+14,B013,Còn trống,5
+15,B013,Còn trống,5
+16,B013,Đang phục vụ,5
+17,B013,Đang phục vụ,5
+18,B013,Còn trống,5
+19,B013,Được đặt trước,5
+20,B013,Đang phục vụ,5
+21,B013,Đang phục vụ,5
+22,B013,Được đặt trước,5
+23,B013,Đang phục vụ,5
+24,B013,Còn trống,5
+25,B013,Đang phục vụ,5
+26,B013,Đang phục vụ,10
+27,B013,Được đặt trước,10
+28,B013,Được đặt trước,10
+29,B013,Đang phục vụ,10
+30,B013,Đang phục vụ,10
+31,B013,Còn trống,10
+32,B013,Còn trống,10
+33,B013,Đang phục vụ,10
+34,B013,Còn trống,10
+35,B013,Còn trống,10
+36,B013,Được đặt trước,10
+37,B013,Đang phục vụ,10
+38,B013,Đang phục vụ,10
+39,B013,Còn trống,10
+40,B013,Còn trống,10
+41,B013,Đang phục vụ,10
+42,B013,Đang phục vụ,10
+43,B013,Được đặt trước,10
+44,B013,Được đặt trước,10
+45,B013,Đang phục vụ,10
+46,B013,Được đặt trước,10
+47,B013,Còn trống,10
+48,B013,Đang phục vụ,10
+49,B013,Được đặt trước,10
+50,B013,Còn trống,10
+1,B014,Được đặt trước,5
+2,B014,Được đặt trước,5
+3,B014,Được đặt trước,5
+4,B014,Đang phục vụ,5
+5,B014,Được đặt trước,5
+6,B014,Còn trống,5
+7,B014,Đang phục vụ,5
+8,B014,Còn trống,5
+9,B014,Được đặt trước,5
+10,B014,Được đặt trước,5
+11,B014,Còn trống,5
+12,B014,Đang phục vụ,5
+13,B014,Còn trống,5
+14,B014,Đang phục vụ,5
+15,B014,Đang phục vụ,5
+16,B014,Còn trống,5
+17,B014,Được đặt trước,5
+18,B014,Còn trống,5
+19,B014,Đang phục vụ,5
+20,B014,Đang phục vụ,5
+21,B014,Được đặt trước,5
+22,B014,Đang phục vụ,5
+23,B014,Đang phục vụ,5
+24,B014,Đang phục vụ,5
+25,B014,Được đặt trước,5
+26,B014,Đang phục vụ,10
+27,B014,Đang phục vụ,10
+28,B014,Đang phục vụ,10
+29,B014,Đang phục vụ,10
+30,B014,Còn trống,10
+31,B014,Đang phục vụ,10
+32,B014,Còn trống,10
+33,B014,Được đặt trước,10
+34,B014,Đang phục vụ,10
+35,B014,Còn trống,10
+36,B014,Được đặt trước,10
+37,B014,Còn trống,10
+38,B014,Đang phục vụ,10
+39,B014,Được đặt trước,10
+40,B014,Được đặt trước,10
+41,B014,Được đặt trước,10
+42,B014,Được đặt trước,10
+43,B014,Đang phục vụ,10
+44,B014,Còn trống,10
+45,B014,Được đặt trước,10
+46,B014,Còn trống,10
+47,B014,Còn trống,10
+48,B014,Đang phục vụ,10
+49,B014,Đang phục vụ,10
+50,B014,Đang phục vụ,10
+1,B015,Đang phục vụ,5
+2,B015,Còn trống,5
+3,B015,Đang phục vụ,5
+4,B015,Được đặt trước,5
+5,B015,Còn trống,5
+6,B015,Còn trống,5
+7,B015,Đang phục vụ,5
+8,B015,Đang phục vụ,5
+9,B015,Đang phục vụ,5
+10,B015,Đang phục vụ,5
+11,B015,Đang phục vụ,5
+12,B015,Còn trống,5
+13,B015,Còn trống,5
+14,B015,Được đặt trước,5
+15,B015,Còn trống,5
+16,B015,Còn trống,5
+17,B015,Được đặt trước,5
+18,B015,Đang phục vụ,5
+19,B015,Đang phục vụ,5
+20,B015,Còn trống,5
+21,B015,Đang phục vụ,5
+22,B015,Đang phục vụ,5
+23,B015,Đang phục vụ,5
+24,B015,Còn trống,5
+25,B015,Đang phục vụ,5
+26,B015,Còn trống,10
+27,B015,Đang phục vụ,10
+28,B015,Còn trống,10
+29,B015,Được đặt trước,10
+30,B015,Còn trống,10
+31,B015,Đang phục vụ,10
+32,B015,Được đặt trước,10
+33,B015,Được đặt trước,10
+34,B015,Đang phục vụ,10
+35,B015,Đang phục vụ,10
+36,B015,Đang phục vụ,10
+37,B015,Còn trống,10
+38,B015,Được đặt trước,10
+39,B015,Đang phục vụ,10
+40,B015,Còn trống,10
+41,B015,Đang phục vụ,10
+42,B015,Còn trống,10
+43,B015,Còn trống,10
+44,B015,Đang phục vụ,10
+45,B015,Đang phục vụ,10
+46,B015,Được đặt trước,10
+47,B015,Được đặt trước,10
+48,B015,Còn trống,10
+49,B015,Được đặt trước,10
+50,B015,Còn trống,10
